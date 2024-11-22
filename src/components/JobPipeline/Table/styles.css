@@ -1,0 +1,19 @@
+.comment-cell {
+  position: relative;
+}
+
+.comment-cell .edit-comment-button {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.comment-cell:hover .edit-comment-button {
+  display: inline-block;
+  position: relative;
+}
+
+.ant-table-cell {
+  overflow: hidden;
+}
